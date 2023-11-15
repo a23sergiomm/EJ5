@@ -28,13 +28,15 @@ h2{
 li{
     background-color: #354BF7;
     text-decoration: none;
+    margin-right: 45px;
 }
 
 section{
     padding-top: 10px;
     margin-bottom: 15px;
     padding-bottom: 20px;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-right: 10px;
 }
 
@@ -49,6 +51,7 @@ article:first-of-type{
     background-color: #354BF7;
     padding: 25px;
     line-height: 30px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 
@@ -65,4 +68,30 @@ a:hover{
     color: #C70039;
     border-radius: 5px;
     border: 2px #C70039 solid;
+}
+
+main>div:first-of-type{
+    margin: 35px ;
+    background: #C70039;
+    width: 160px;
+    height: 130px;
+    position: relative;
+}
+
+div>div:nth-child(1){
+    background-color: #354BF7;
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top:15px;
+    left: 20px;
+}
+
+div>div:nth-child(2){
+    background-color: white;
+    height: 75px;
+    width: 90px;
+    position: absolute;
+    top: 27px;
+    left: 35px;
 }
